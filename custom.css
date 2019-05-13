@@ -1,0 +1,99 @@
+body,h1,h2,h3,h4,h5,h6 {font-family: 'PT Serif', serif;}
+body, html {
+  height: 100%;
+  color: #777;
+  line-height: 1.8;
+}
+
+.bgimg-1, .bgimg-2, .bgimg-3, .bgimg-4, .bgimg-5{
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.bgimg-1 {
+  background-image: url("https://media.defense.gov/2014/Nov/21/2000984845/-1/-1/0/141118-F-XP707-005.JPG");
+  min-height: 400px;
+  height: 500px;
+}
+
+.bgimg-2 {
+  background-image: url("https://cdn.pixabay.com/photo/2014/12/03/21/20/kittens-555822_960_720.jpg");
+  min-height: 400px;
+      height: 500px;
+
+}
+
+.bgimg-3 {
+  background-image: url("https://live.staticflickr.com/4246/34868176695_5c82ab448c_b.jpg");
+  min-height: 400px;
+      height: 500px;
+
+}
+.bgimg-4 {
+  background-image: url("https://static1.squarespace.com/static/54e8ba93e4b07c3f655b452e/t/5908ea16bebafbd5175c401f/1493757618431/");
+  min-height: 400px;
+      height: 500px;
+
+}
+.bgimg-5 {
+  background-image: url("https://live.staticflickr.com/3022/2898858517_3db35e1387_b.jpg");
+  min-height: 400px;
+    height: 500px;
+
+}
+
+.w3-wide {letter-spacing: 10px;}
+.w3-hover-opacity {cursor: pointer;}
+
+@media only screen and (max-device-width: 1600px) {
+  .bgimg-1, .bgimg-2, .bgimg-3, .bgimg-4, .bgimg-5{
+    background-attachment: scroll;
+    min-height: 400px;
+  }
+}
+hr { 
+  display: block;
+  margin-top: 0.5em;
+  margin-bottom: 0.5em;
+  margin-left: auto;
+  margin-right: auto;
+  border-style: inset;
+  border-width: 1px;
+} 
+
+#statistics{
+  font-size: 40px;
+  margin-bottom: 6em;
+}
+
+@media(min-width:456px) {
+    p {
+
+        font-size: 50px;
+    }
+    p {
+        font-size: 25px;
+    }
+}
+
+@media(min-width:792px) {
+    h1 {
+
+        font-size: 75px;
+    }
+    h2 {
+        font-size: 50px;
+    }
+}
+
+@media(min-width:1200px) {
+    h1 {
+
+        font-size: 150px;
+    }
+    h2 {
+        font-size: 50px;
+    }
+}
